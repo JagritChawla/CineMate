@@ -1,0 +1,20 @@
+api key - aa1060db40f72dd06247a29918c897d5
+
+access token auth - eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhYTEwNjBkYjQwZjcyZGQwNjI0N2EyOTkxOGM4OTdkNSIsInN1YiI6IjY2MDdjOTIxMmZhZjRkMDE3ZGM5ODY2ZCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.8It4OYQtXu0W7Jlit70M69wYNtQhpSzTZG6UKznvqqA
+
+request token - bced3f95e9b5ac2774d58bde7ce091aea3845d88
+
+indivdual movie - 
+https://api.themoviedb.org/3/movie/{movie_id}
+
+now playing - https://api.themoviedb.org/3/movie/now_playing
+
+popular - 
+https://api.themoviedb.org/3/movie/popular
+
+top rated - https://api.themoviedb.org/3/movie/top_rated
+
+upcoming - 
+https://api.themoviedb.org/3/movie/upcoming
+
+search - https://api.themoviedb.org/3/search/movie?query={movie keyword}
