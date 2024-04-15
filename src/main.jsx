@@ -4,11 +4,13 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 import App from './App.jsx'
+import { ScrollToTop } from './components';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
+      <ScrollToTop />
       <App />
     </BrowserRouter>
   </React.StrictMode>

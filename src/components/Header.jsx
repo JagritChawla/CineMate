@@ -42,7 +42,7 @@ export const Header = () => {
               <img
                 src="./favicon-32x32.png"
                 className="h-8"
-                alt="Flowbite Logo"
+                alt="CineMate Logo"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 CineMate

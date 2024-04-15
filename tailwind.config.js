@@ -6,11 +6,11 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      
-    },
-    screens: {
+      screens: {
       'tablet': {'min': '500px', 'max': '1237px'},
     }
+    },
+    
   },
   plugins: [],
 }

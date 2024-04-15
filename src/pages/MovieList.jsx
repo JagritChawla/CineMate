@@ -1,10 +1,14 @@
 import { useFetch } from "../hooks/useFetch";
 import { Card } from "../components"
-export const MovieList = ({apiPath}) => {
+import { useEffect } from "react";
+export const MovieList = ({apiPath,title}) => {
 
 
   const { movieData }= useFetch(apiPath);
 
+  useEffect(()=>{
+    document.title = title + " / CineMate";
+  })
   return (
     <main >
       <section className="py-7">
