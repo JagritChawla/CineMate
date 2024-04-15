@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Link, NavLink,useNavigate } from 'react-router-dom';
+
+import headerLogo from "../../movielogo.png"
 export const Header = () => {
 
   const [hidden, setHidden] = useState(true);
@@ -40,7 +42,7 @@ export const Header = () => {
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <img
-                src="../movielogo.png"
+                src={headerLogo}
                 className="h-8"
                 alt="CineMate Logo"
               />
