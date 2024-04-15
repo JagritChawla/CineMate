@@ -40,7 +40,7 @@ export const Header = () => {
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
               <img
-                src="./favicon-32x32.png"
+                src="../movielogo.png"
                 className="h-8"
                 alt="CineMate Logo"
               />

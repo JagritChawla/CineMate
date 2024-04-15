@@ -20,7 +20,7 @@ export const MovieDetail = () => {
       setData(data);
     }
     fetchMovies();
-  }, [])
+  }, [params.id])
 
   const posterUrl = `https://image.tmdb.org/t/p/w500/${data.poster_path}`
 
